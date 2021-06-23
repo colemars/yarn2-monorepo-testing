@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "resolutions": {
+    "typescript": "4.3.2",
+    "react-router-dom": "latest",
+    "react-router": "latest",
+    "react": "17.0.2"
+  },
+  "scripts": {
+    "build": "yarn workspace components build && yarn workspace app build"
+  }
+}
