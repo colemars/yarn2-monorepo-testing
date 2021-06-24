@@ -18,7 +18,7 @@
     "react": "latest",
     "react-dom": "latest",
     "react-router-dom": "latest",
-    "react-scripts": "patch:react-scripts@latest#./ModuleScopePlugin-patch.diff",
+    "react-scripts": "latest",
     "typescript": "4.1.5"
   },
   "devDependencies": {
